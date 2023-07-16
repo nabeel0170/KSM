@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;  
+    justify-content: center;
+}
+.panel{
+    margin-top:220px;
+    border:black solid 3px;
+    width:fit-content;
+    height:400px;
+    width:400px;
+    border-radius:6px;
+}
+.greet{
+    font-size: 29px;
+    background-color: rgb(239, 239, 242);
+}
+.username,.password
+{
+    display: flex;
+    align-items: center;
+}
+.panel-footer{
+    display: flex;
+    justify-content:right;
+    margin-top:80px;
+    margin-right:10px;
+    height: 40px;
+}
+
